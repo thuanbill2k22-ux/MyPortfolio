@@ -3,7 +3,7 @@
   "version": "1.2.0",
   "private": true,
   "type": "module",
-  "homepage": "https://HoThuann.github.io/Portfolio",
+  "homepage": "https://github.com/thuanbill2k22-ux/MyPortfolio.git",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
