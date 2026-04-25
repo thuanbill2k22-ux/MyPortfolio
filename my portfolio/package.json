@@ -2,50 +2,15 @@
   "name": "3d-portfolio",
   "version": "1.2.0",
   "private": true,
-  "author": {
-    "name": "Sanidhya Kumar Verma",
-    "email": "sanidhya.verma12345@gmail.com",
-    "url": "https://github.com/sanidhyy"
-  },
-  "description": "Modern 3D Portfolio using React, Three.js and Typescript",
-  "keywords": [
-    "reactjs",
-    "react",
-    "porfolio-app",
-    "three-js",
-    "modern-ui/ux",
-    "js",
-    "javascript",
-    "html",
-    "css",
-    "tailwindcss"
-  ],
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/sanidhyy/3d-portfolio.git"
-  },
-  "homepage": "https://github.com/sanidhyy/3d-portfolio#readme",
-  "bugs": {
-    "url": "https://github.com/sanidhyy/3d-portfolio/issues",
-    "email": "sanidhya.verma12345@gmail.com"
-  },
-  "funding": [
-    {
-      "type": "patreon",
-      "url": "https://www.patreon.com/sanidhy"
-    },
-    {
-      "type": "Buy me a coffee",
-      "url": "https://www.buymeacoffee.com/sanidhy"
-    }
-  ],
   "type": "module",
+  "homepage": "https://HoThuann.github.io/Portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "check-types": "tsc --noEmit"
+    "check-types": "tsc --noEmit",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
@@ -71,6 +36,7 @@
     "@types/tailwindcss": "^3.1.0",
     "@vitejs/plugin-react": "^6.0.1",
     "autoprefixer": "^10.5.0",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.5.10",
     "tailwindcss": "^3.4.17",
     "typescript": "^6.0.3",
