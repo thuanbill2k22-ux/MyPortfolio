@@ -1,15 +1,10 @@
 [build]
-  # Chỉ định thư mục chứa code của ông
   base = "my portfolio/"
-  
-  # Lệnh build (tui đoán ông dùng Vite/React dựa trên file env.d.ts nãy thấy)
-  command = "npm run build"
-  
-  # Thư mục chứa kết quả build sau khi xong
+  # Thêm cờ --legacy-peer-deps vào đây
+  command = "npm install --legacy-peer-deps && npm run build"
   publish = "dist/"
 
 [[redirects]]
-  # Fix lỗi 404 khi ông dùng react-router-dom và nhấn F5
   from = "/*"
   to = "/index.html"
   status = 200
