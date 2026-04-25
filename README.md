@@ -46,6 +46,11 @@ Here is the folder structure of this app.
 <!--- FOLDER_STRUCTURE_START --->
 ```bash
 3d-portfolio/
+  |- image/
+    |-- avatar.jpg
+    |-- avt_doinogiup.jpg
+    |-- avt_travel-planner.jpg
+    |-- Logo.png
   |- public/
   |- src/
     |-- assets/
@@ -76,17 +81,15 @@ Here is the folder structure of this app.
     |-- index.css
     |-- main.tsx
     |-- styles.ts
-  |- .env.example
-  |- .env/.env.local
   |- .gitignore
   |- bun.lock
   |- index.html
   |- netlify.toml
+  |- package-lock.json
   |- package.json
   |- postcss.config.cjs
   |- tailwind.config.ts
   |- tsconfig.json
-  |- tsconfig.tsbuildinfo
   |- vite.config.ts
 ```
 <!--- FOLDER_STRUCTURE_END --->
@@ -184,6 +187,7 @@ Useful resources and dependencies that are used in 3D Portfolio.
 - [autoprefixer](https://www.npmjs.com/package/autoprefixer): ^10.5.0
 - [clsx](https://www.npmjs.com/package/clsx): ^2.1.1
 - [framer-motion](https://www.npmjs.com/package/framer-motion): ^12.38.0
+- [gh-pages](https://www.npmjs.com/package/gh-pages): ^6.3.0
 - [maath](https://www.npmjs.com/package/maath): ^0.10.8
 - [postcss](https://www.npmjs.com/package/postcss): ^8.5.10
 - [react](https://www.npmjs.com/package/react): ^19.2.5
